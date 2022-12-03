@@ -19,7 +19,7 @@ def main():
 
 @app.route('/showSignUp')
 def showSignUp():
-    return render_template('signup.html')
+e    return render_template('signup.html')
 
 
 @app.route('/signUp',methods=['POST','GET'])
